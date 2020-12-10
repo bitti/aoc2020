@@ -1,0 +1,21 @@
+These are my solutions to [[https://adventofcode.com/2020][Advent of Code 2020]] in ClojureScript to be
+executed via [[https://github.com/planck-repl/planck][Planck REPL]].
+
+That's my first excursion to Planck and even to ClojureScript, so it's
+kind of an experiment to see how this is going. So far I'm quite happy
+though. If Clojure is about getting rid of unnecessary fluff like
+Classes, then Planck is about getting rid of even more which isn't
+required for the kind of short Programs AOC requires. That is: no
+=project.clj=, not compile step, no elaborate namespaces, etc.
+
+* Day 01
+
+#+begin_src sh :dir day01 :results output :exports both
+planck day01.cljs <day01-input
+#+end_src
+
+#+RESULTS:
+#+begin_example
+Pair found: 1007331
+Triple found: 48914340
+#+end_example
