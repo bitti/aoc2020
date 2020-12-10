@@ -15,7 +15,31 @@ planck day01.cljs <day01-input
 #+end_src
 
 #+RESULTS:
+: Pair found: 1007331
+: Triple found: 48914340
+
+* Day 10
+
+#+begin_src sh :dir day10 :results output :exports both
+for input in example1 example2 input; do
+    echo Solution for $input
+    planck day10.cljs <$input
+    echo
+done
+#+end_src
+
+#+RESULTS:
 #+begin_example
-Pair found: 1007331
-Triple found: 48914340
+Solution for example1
+Product of number of 1 and 3 jolt differences when using all adapters: 35
+Possible adapter arrangements: 8
+
+Solution for example2
+Product of number of 1 and 3 jolt differences when using all adapters: 220
+Possible adapter arrangements: 19208
+
+Solution for input
+Product of number of 1 and 3 jolt differences when using all adapters: 2244
+Possible adapter arrangements: 3947645370368
+
 #+end_example
