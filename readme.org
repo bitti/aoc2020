@@ -18,6 +18,25 @@ planck day01.cljs <day01-input
 : Pair found: 1007331
 : Triple found: 48914340
 
+* Day 02
+  
+#+begin_src sh :dir day02 :results output :exports both
+echo Solution for example
+planck day02.cljs <example
+echo
+echo Solution for input
+planck day02.cljs <input
+#+end_src
+
+#+RESULTS:
+: Solution for example
+: Number of valid passwords by old policies: 2
+: Number of valid passwords by new policies: 1
+: 
+: Solution for input
+: Number of valid passwords by old policies: 550
+: Number of valid passwords by new policies: 634
+
 * Day 10
 
 #+begin_src sh :dir day10 :results output :exports both
