@@ -8,7 +8,7 @@ Classes, then Planck is about getting rid of even more which isn't
 required for the kind of short Programs AOC requires. That is: no
 =project.clj=, not compile step, no elaborate namespaces, etc.
 
-* Day 01
+* [[https://adventofcode.com/2020/day/1][Day 1: Report Repair]]
 
 #+begin_src sh :dir day01 :results output :exports both
 planck day01.cljs <day01-input
@@ -18,7 +18,7 @@ planck day01.cljs <day01-input
 : Pair found: 1007331
 : Triple found: 48914340
 
-* Day 02
+* [[https://adventofcode.com/2020/day/2][Day 2: Password Philosophy]]
   
 #+begin_src sh :dir day02 :results output :exports both
 echo Solution for example
@@ -37,7 +37,7 @@ planck day02.cljs <input
 : Number of valid passwords by old policies: 550
 : Number of valid passwords by new policies: 634
 
-* Day 03
+* [[https://adventofcode.com/2020/day/3][Day 3: Toboggan Trajectory]]
 
 #+begin_src sh :dir day03 :results output :exports both
 echo Solution for example
@@ -56,7 +56,7 @@ planck day03.cljs <input
 : Number of trees encountered: 223
 : Product of number of trees on all slopes: 3517401300
 
-* Day 10
+* [[https://adventofcode.com/2020/day/10][Day 10: Adapter Array]]
 
 #+begin_src sh :dir day10 :results output :exports both
 for input in example1 example2 input; do
@@ -82,7 +82,7 @@ Possible adapter arrangements: 3947645370368
 
 #+end_example
 
-* Day 12
+* [[https://adventofcode.com/2020/day/12][Day 12: Rain Risk]]
 
 #+begin_src sh :dir day12 :results output :exports both
 echo Solution for example
