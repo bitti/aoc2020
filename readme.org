@@ -37,6 +37,25 @@ planck day02.cljs <input
 : Number of valid passwords by old policies: 550
 : Number of valid passwords by new policies: 634
 
+* Day 03
+
+#+begin_src sh :dir day03 :results output :exports both
+echo Solution for example
+planck day03.cljs <example
+echo
+echo Solution for input
+planck day03.cljs <input
+#+end_src
+
+#+RESULTS:
+: Solution for example
+: Number of trees encountered: 7
+: Product of number of trees on all slopes: 336
+: 
+: Solution for input
+: Number of trees encountered: 223
+: Product of number of trees on all slopes: 3517401300
+
 * Day 10
 
 #+begin_src sh :dir day10 :results output :exports both
