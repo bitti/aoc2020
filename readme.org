@@ -81,3 +81,22 @@ Product of number of 1 and 3 jolt differences when using all adapters: 2244
 Possible adapter arrangements: 3947645370368
 
 #+end_example
+
+* Day 12
+
+#+begin_src sh :dir day12 :results output :exports both
+echo Solution for example
+planck day12.cljs <example
+echo
+echo Solution for input
+planck day12.cljs <input
+#+end_src
+
+#+RESULTS:
+: Solution for example
+: Manhatten distance of ship by initial meaning of instructions 25
+: Manhatten distance of ship by corrected meaning of instructions 286
+: 
+: Solution for input
+: Manhatten distance of ship by initial meaning of instructions 1457
+: Manhatten distance of ship by corrected meaning of instructions 106860
