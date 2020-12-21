@@ -100,3 +100,22 @@ planck day12.cljs <input
 : Solution for input
 : Manhatten distance of ship by initial meaning of instructions 1457
 : Manhatten distance of ship by corrected meaning of instructions 106860
+
+* [[https://adventofcode.com/2020/day/21][Day 21: Allergen Assessment]]
+
+#+begin_src sh :dir day21 :results output :exports both
+echo Solution for example
+planck day21.cljs <example
+echo
+echo Solution for input
+planck day21.cljs <input
+#+end_src
+
+#+RESULTS:
+: Solution for example
+: Number of occurences of non-allergic incredients: 5
+: Ingredients alphabetically by their allergen: mxmxvkd,sqjhc,fvjkl
+: 
+: Solution for input
+: Number of occurences of non-allergic incredients: 2436
+: Ingredients alphabetically by their allergen: dhfng,pgblcd,xhkdc,ghlzj,dstct,nqbnmzx,ntggc,znrzgs
