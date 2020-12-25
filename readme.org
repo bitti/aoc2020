@@ -119,3 +119,20 @@ planck day21.cljs <input
 : Solution for input
 : Number of occurences of non-allergic incredients: 2436
 : Ingredients alphabetically by their allergen: dhfng,pgblcd,xhkdc,ghlzj,dstct,nqbnmzx,ntggc,znrzgs
+
+* Day 25
+
+#+begin_src sh :dir day25 :results output :exports both
+echo Solution for example
+planck day25.cljs 5764801 17807724
+echo
+echo Solution for input
+planck day25.cljs 2084668 3704642
+#+end_src
+
+#+RESULTS:
+: Solution for example
+: The encryption key is 14897079
+: 
+: Solution for input
+: The encryption key is 42668
